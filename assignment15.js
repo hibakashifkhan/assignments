@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let guestArr = ["Hania", "Fareeha", "Mary"];
+console.log(guestArr);
+let CanNotCome = "Hania";
+console.log(CanNotCome + " " + " is unable to come for dinner");
+let NewGuest = "Hareem";
+guestArr[guestArr.indexOf(CanNotCome)] = NewGuest;
+console.log(guestArr);
+guestArr.map((item) => console.log(`Hi ${item} I would like to invite you to my dinner party,Please Come. `));
